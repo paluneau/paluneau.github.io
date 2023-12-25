@@ -398,5 +398,6 @@
 					$window.on('load', function() {
 						$main._show(location.hash.substr(1), true);
 					});
+		document.getElementById("thisYear").innerHTML = new Date().getFullYear();
 
 })(jQuery);

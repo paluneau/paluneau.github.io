@@ -1693,3 +1693,26 @@ li.iconfa::after {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+
+div.photogallery{
+	text-align: center;
+}
+
+img.photobutton{
+	object-fit: cover;
+	opacity: 50%;
+	width: 100px;
+	height: 100px;
+	position: relative;
+	vertical-align: middle;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+	-ms-border-radius: 50px;
+	-o-border-radius: 50px;
+}
+img.photobutton:hover{
+	border: 2px solid #fff;
+	opacity: 100%;
+}
