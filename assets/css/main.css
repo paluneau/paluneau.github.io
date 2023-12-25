@@ -1,4 +1,5 @@
 @import url(fontawesome-all.min.css);
+@import url("https://cdn.jsdelivr.net/gh/aaaakshat/cm-web-fonts@latest/fonts.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
 /*
@@ -141,7 +142,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: "Computer Modern Serif";
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1209,7 +1210,8 @@ ul.nobullet {
 	list-style-type: none;
 }
 li.iconfa::after {
-	font-family: "Source Sans Pro", sans-serif;
+	font-family: "Computer Modern Serif";
+	font-weight: 100;
 	margin-left: 10px;
 	content: attr(text);
 }
